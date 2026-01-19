@@ -1,4 +1,4 @@
-# -- Un AES-Artisanal en Python -- 
+# -- Un AES-Artisanal en Python (128bits)-- 
 
 Ce projet tente d'implémenter l'**Advanced Encryption Standard (AES)** en Python, sans l'aide d'aucune bibliothèque externe.
 
