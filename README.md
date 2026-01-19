@@ -59,6 +59,8 @@ python3 main.py dec document.txt.enc -k 0xb4c168612aff26221004ef626cc42811
 | `-k`, `--key` | Clé secrète au format hexadécimal (`0x...`) (**16 octets**)| (Obligatoire) |
 | `-p`, `--profondeur` | Nombre de rounds de l'algorithme | `11` |
 
+> Diminuer la profondeur (nombre de rounds) réduit considérablement le temps d'exécution !
+
 ## -- Note --
 
 C'est tarpin long de chiffrer un fichier :O J'imagine que le script est séquentiel c'est pour ça. Pour le moment, j'ai pas la solution, je sais que ça existe du *Multiprocessing* mais je m'y connais malheureusement pas assez en codage :/
