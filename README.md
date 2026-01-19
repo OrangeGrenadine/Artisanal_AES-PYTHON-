@@ -62,4 +62,5 @@ python3 main.py dec document.txt.enc -k 0xb4c168612aff26221004ef626cc42811
 ## -- Note --
 
 C'est tarpin long de chiffrer un fichier :O J'imagine que le script est séquentiel c'est pour ça. Pour le moment, j'ai pas la solution, je sais que ça existe du *Multiprocessing* mais je m'y connais malheureusement pas assez en codage :/
+
 Mais c'était un super projet, pour une première en tout cas :)
